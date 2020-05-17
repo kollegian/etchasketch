@@ -1,0 +1,30 @@
+html{
+    background: linear-gradient(90deg,#CCFFFF, #FFCCCC);
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width:480px;
+    height:480px;
+    position: relative;
+    left: 450px;
+    border-style: solid;
+    border: 3px;
+    
+}
+h1 {
+    color: purple;
+    background-color: azure;
+    opacity: 0.3;
+    text-align: center;
+}
+#items{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+} #items:hover{
+    background-color: red;
+    transition: 0;
+
+}
